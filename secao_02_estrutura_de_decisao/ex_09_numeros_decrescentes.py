@@ -16,5 +16,11 @@ Faça um Programa que leia três números e mostre-os em ordem decrescente.
 """
 
 
+from os import sep
+
+
 def ordenar_decrescente(x, y, z):
     """Escreva aqui em baixo a sua solução"""
+    numeros=[x,y,z]
+    numeros.sort(reverse=True)
+    print(*numeros, sep= ', ')

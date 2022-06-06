@@ -47,4 +47,3 @@ def calcular_latas_e_preco_de_tinta():
         print(f'Para menor custo, você pode comprar {latas} lata(s) de 18 litros e {galao} galão(ões) de 3.6 litros a um custo de R$ {valor}. Vão sobrar {"%.1f" %(sobra)} litro(s) de tinta.')
     else:
         print(f'Para menor custo, você pode comprar {latas} lata(s) de 18 litros e 0 galão(ões) de 3.6 litros a um custo de R$ {vl_latas}. Vão sobrar {"%.1f" %(latas*18-litros)} litro(s) de tinta.')
-    
