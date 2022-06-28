@@ -34,3 +34,14 @@ até que o usuário informe um valor válido.
 
 def obter_numero_valido():
     """Escreva aqui em baixo a sua solução"""
+    while (True):
+        nota = input("Digite uma note entre 0 e 10: ")
+        if not nota.isdigit():
+            print(f"Número inválido: {nota}")
+        else:
+            nota = int(nota)
+            if nota >= 0 and nota <= 10:
+                break
+            print(f"Número inválido: {nota}")
+    
+    print(nota)
